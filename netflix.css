@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix-img/images/header-image.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.left-navbar img{
+    margin-top: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.right-navbar button{
+    float: right;
+    align-items: center;
+    border: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: -28px;
+    font-weight: 700;
+   
+}
+.right-navbar .langb{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+
+}
+.langb img{
+    width: 10px;
+    margin-left: 8px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 50px;
+    max-width: 650px;
+    font-weight: 900;
+    white-space: nowrap;
+    margin-left: -450px;
+}
+.emailbutton{
+   border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+   overflow: hidden;
+}
+.emailbutton input{
+    flex: 1;
+    border: 2px solid rgb(2, 69, 2);
+    border-width: 3px;
+    outline: 0;
+    margin-left: 20px;
+    height: 45px;
+    width: 290px;
+    border-color: rgb(94, 150, 10);
+    background: transparent;
+    color: #fff;
+
+}
+.emailbutton button{
+    margin-left: 20px;
+    height: 45px;
+    background: #db0001;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.feature{
+   font-size: 22px;
+   padding: 50px 22%;
+   color: rgb(187 187 187);;
+}
+.row{
+    width: 100%;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+padding: 50px;
+
+}
+.row h1{
+    font-size: 50px;
+    max-width: 650px;
+    font-weight: 900;
+    
+}
+.textarea{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imgarea{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+.imgarea img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    
+}
+.textarea h1{
+    margin: auto;
+}
+.faq{
+   
+    padding: 10px 12% ;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(187 187 187);;
+    
+    
+}
+.faq h1{
+    font-size: 50px;
+    
+    font-weight: 900;
+}
+.faq ul{
+    list-style: none;
+   
+   margin-left: 0px;
+   background-color: #2f2f2f;
+}
+.faq li{
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+    border: 7px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq span{
+    font-size: 50px;
+    font-weight: 50;
+    cursor: pointer;
+}
+.emailbutton{
+    border-radius: 4px;
+   display: inline-flex;
+   align-items: center;
+    overflow: hidden;
+ }
+ .faq input{
+     flex: 1;
+     border: 2px solid rgb(2, 69, 2);
+     border-width: 3px;
+     outline: 0;
+     margin-left: 20px;
+     height: 45px;
+     width: 290px;
+     border-color: rgb(94, 150, 10);
+     background: transparent;
+     color: #fff;
+ 
+ }
+ .faq button{
+     margin-left: 20px;
+     height: 45px;
+     background: #db0001;
+     color: #fff;
+     border: 0;
+     outline: 0;
+     font-weight: 600;
+     width: 140px;
+     border-radius: 5px;
+     font-size: 15px;
+     cursor: pointer;
+ 
+ }
+ .bottombar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 12% ;
+    color: rgb(187 187 187);
+ }
+ .bottombar ul a{
+    list-style: none;
+    color: rgb(187 187 187);
+ }
+ .bottombar{
+    font-family: 'Poppins', sans-serif;
+ }
+ .bottombar ul{
+    list-style: none;
+ }
+ .bottombar li{
+    padding-top: 15px;
+ }
+ .bottombar button{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: 700;
+ }
+ .qa{
+    font-size: 20px;
+    display: block;
+    align-items: center;
+   
+    margin: 10px;
+    padding: 10px 12% ;
+    color: rgb(187 187 187);
+ }
+ .last{
+    font-size: 20px;
+    display: block;
+    align-items: center;
+   
+    margin: 10px;
+    padding: 10px 12% ;
+    color: rgb(187 187 187);
+ }
+ .last ul{
+    list-style: none;
+    padding-top: 15px;
+    margin-top: 10px;
+
+ }
+ .last ul li{
+    padding-top: 15px;
+    list-style: none;
+ }
+.last button{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+    
+}.finet{
+    font-size: 20px;
+    display: block;
+    align-items: center;
+   
+    margin: 10px;
+    padding: 10px 12% ;
+    color: rgb(187 187 187);
+    padding-bottom: 100px;
+ }
+
+}
